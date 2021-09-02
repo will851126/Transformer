@@ -29,7 +29,7 @@ Given a 1-D vector of sequential data, `batchify()` arranges the data into `batc
 
 
 
-# Functions to generate input and target sequence
+## Functions to generate input and target sequence
 
 `get_batch()` generates a pair of input-target sequences for the transformer model. It subdivides the source data into chunks of length `bptt`. For the language modeling task, the model needs the following words as `Target`. For example, with a `bptt` value of 2, we’d get the following two Variables for i = 0:
 
